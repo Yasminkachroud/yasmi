@@ -11,10 +11,10 @@ CONFIG += c++17
 INCLUDEPATH += $$PWD/libs/qrcodegen
 
 SOURCES += \
+    VehiMain.cpp \
     arduino.cpp \
     connexion.cpp \
     main.cpp \
-    mainwindow.cpp \
     qrcodedialog.cpp \
     statistique.cpp \
     vehicule.cpp \
@@ -22,9 +22,9 @@ SOURCES += \
     libs/qrcodegen/qrcodegen.cpp
 
 HEADERS += \
+    VehiMain.h \
     arduino.h \
     connexion.h \
-    mainwindow.h \
     qrcodedialog.h \
     statistique.h \
     vehicule.h \
@@ -32,8 +32,7 @@ HEADERS += \
     libs/qrcodegen/qrcodegen.hpp
 
 FORMS += \
-    mainwindow.ui \
-    qrcodedialog.ui \
+    VehiMain.ui \
     statistique.ui \
     vehiculeui.ui
 

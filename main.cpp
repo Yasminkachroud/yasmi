@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "VehiMain.h"
 #include "connexion.h"
 #include "vehiculeui.h"
 
@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    //MainWindow w;
+    //VehiMain w;
     vehiculeUI vUI;
     connexion c;
     bool test =c.createconnect();
